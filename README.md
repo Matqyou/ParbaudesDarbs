@@ -7,7 +7,8 @@
 
  - **Kas ir ORM, kāpēc to izmanto tīra SQL vietā?** ORM atšifrējums: Object-Relational Mapping, datus transportē ar objektu palīdzību. Šis attelošanas veids izmanto datu struktūru datu integrācijas iemesliem un vienkāršībai.
 
- - **Ekvivalents ORM pieprasījums, kur iegūst lietotājus ar reitingu virs 4** `$users = User::where('rating', '>', 4)->get();` \
- Lietotājus saglabā mainīgajā `$users`, izmanto modeli `User`, meklē pēc lauka `where`, salīdzina ar operatoru `>`, salīdzina ar `4`.
+ - **Ekvivalents ORM pieprasījums, kur iegūst lietotājus ar reitingu virs 4** \
+`$users = User::where('rating', '>', 4)->get();` \
+Lietotājus saglabā mainīgajā `$users`, izmanto modeli `User`, meklē pēc lauka `where`, salīdzina ar operatoru `>`, salīdzina ar `4`.
 
  
